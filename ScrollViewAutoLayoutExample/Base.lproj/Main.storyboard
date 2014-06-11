@@ -60,9 +60,9 @@
                         <constraints>
                             <constraint firstItem="1PP-oz-hYs" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="6Gy-MM-ImT"/>
                             <constraint firstItem="1PP-oz-hYs" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="8NF-xy-LvP"/>
-                            <constraint firstItem="1PP-oz-hYs" firstAttribute="width" secondItem="v9j-aO-Xsg" secondAttribute="width" id="92L-nW-bjd"/>
                             <constraint firstAttribute="trailing" secondItem="1PP-oz-hYs" secondAttribute="trailing" id="Fhb-83-BZD"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="1PP-oz-hYs" secondAttribute="bottom" id="QgL-cv-HD4"/>
+                            <constraint firstItem="v9j-aO-Xsg" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" id="rLS-Jz-yMk"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
