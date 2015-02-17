@@ -22,14 +22,14 @@ class ViewController: UIViewController {
     override func viewDidLayoutSubviews()
     {
         let scrollViewBounds = scrollView.bounds
-        let containerViewBounds = contentView.bounds
+        let contentViewBounds = contentView.bounds
         
         var scrollViewInsets = UIEdgeInsetsZero
         scrollViewInsets.top = scrollViewBounds.size.height/2.0;
-        scrollViewInsets.top -= contentView.bounds.size.height/2.0;
+        scrollViewInsets.top -= contentViewBounds.size.height/2.0;
         
         scrollViewInsets.bottom = scrollViewBounds.size.height/2.0
-        scrollViewInsets.bottom -= contentView.bounds.size.height/2.0;
+        scrollViewInsets.bottom -= contentViewBounds.size.height/2.0;
         scrollViewInsets.bottom += 1
         
         scrollView.contentInset = scrollViewInsets
